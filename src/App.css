@@ -1,0 +1,19 @@
+.animal-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animal-post {
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px darkslategray;
+  background-color: lightblue;
+}
+
+.animal-post > .image {
+  float: left;
+  width: 160px;
+  height: 160px;
+  margin-right: 10px;
+}
